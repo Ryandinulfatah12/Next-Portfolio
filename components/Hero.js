@@ -9,12 +9,13 @@ export default function Hero() {
         <div className="flex flex-col-reverse items-center text-center lg:mx-4 lg:flex-row lg:space-x-5 lg:text-left">
           <div className="lg:mt-12 lg:px-4">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white lg:text-5xl">
-              Hey there,
+              Hi there, I'm Ryan &#128516;
             </h1>
             <div className="mt-6 text-gray-800 dark:text-white">
               <p className="mb-4">
-                hi there, I am a web developer who loves to learn new things,
-                besides that I also like movies, music, basketball and books.
+                hi there, I am a software developer who loves to learn new
+                things, besides that I also like movies, music, basketball and
+                books&#128640;.
               </p>
             </div>
           </div>

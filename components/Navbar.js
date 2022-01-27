@@ -16,7 +16,20 @@ export default function Navbar() {
               Ryan
             </a>
           </Link>
-          <ThemeSwitch />
+          <div className="flex items-center">
+            <div className="space-x-4 font-medium text-gray-800 dark:text-white sm:block md:flex lg:flex">
+              <Link href="/work">
+                <a
+                  className={
+                    'colors font-medium tracking-wider text-gray-900 transition hover:text-sky-500 dark:text-white'
+                  }
+                >
+                  Work
+                </a>
+              </Link>
+              <ThemeSwitch />
+            </div>
+          </div>
         </div>
       </div>
     </>
