@@ -6,6 +6,7 @@ const userData = {
   desc: 'Hi there, im Software Developer who loves to learn new things, besides that, i also like basketball, music, movies and books &#128640;',
   project: [
     {
+      id: 1,
       nama: 'Codespace',
       img: '/img/project/codespace.jpg',
       type: 'Laravel REST API',
@@ -13,6 +14,7 @@ const userData = {
       stack: 'laravel, HERE Maps API, Vue.js',
     },
     {
+      id: 2,
       nama: 'Sistem pendeteksi dini pergerakan tanah longsor',
       img: '/img/project/iot.jpg',
       type: 'Internet of Things (IoT) Project',
@@ -20,6 +22,7 @@ const userData = {
       stack: 'C, PHP Native, MySQL, Jquery',
     },
     {
+      id: 3,
       nama: 'Smart Home Project',
       img: '/img/project/smarthome.jpg',
       type: 'Internet of Things (IoT) Project',
@@ -27,6 +30,7 @@ const userData = {
       stack: 'C, Javascript, PHP',
     },
     {
+      id: 4,
       nama: 'Aplikasi Kasir Restourant Management',
       img: '/img/project/laravel2.jpg',
       type: 'Laravel Project',
@@ -34,6 +38,7 @@ const userData = {
       stack: 'Laravel, Jquery, MySQL, Bootstrap',
     },
     {
+      id: 5,
       nama: 'Aplikasi Pengaduan Masyarakat',
       img: '/img/project/laravel1.jpg',
       type: 'Laravel Project',
@@ -43,9 +48,28 @@ const userData = {
   ],
   timeline: [
     {
-      title: 'Test title',
-      year: '2022',
-      desc: 'lorem ipsum desc',
+      id: 1,
+      title: '🏀 Highschool Basketball Player',
+      year: '2014 - 2019',
+      desc: 'basketball player in school and club, managed to win the championship, great position and experience',
+    },
+    {
+      id: 2,
+      title: '😂 Internship at STMIK Akakom Yogyakarta',
+      year: '2019',
+      desc: 'running a school internship program at one of the campuses in Yogyakarta, and studying knowledge in the IT, Programming, and other experiences for 5 months.',
+    },
+    {
+      id: 3,
+      title: '😃 Freelance Software Developer',
+      year: '2019',
+      desc: 'started stepping into software developer with several clients from India, Indonesia and Sweden on Upwork and Personal contract',
+    },
+    {
+      id: 4,
+      title: '🙂 Software Developer and IT Staff',
+      year: '2019',
+      desc: 'managing a service company website as well as being the company IT staff at PT. Nurcahya Aulia',
     },
   ],
 }

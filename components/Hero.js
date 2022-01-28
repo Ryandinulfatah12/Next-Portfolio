@@ -13,9 +13,8 @@ export default function Hero() {
             </h1>
             <div className="mt-6 text-gray-800 dark:text-white">
               <p className="mb-4">
-                hi there, I am a software developer who loves to learn new
-                things, besides that I also like movies, music, basketball and
-                books&#128640;.
+                I am a software developer who loves to learn new things, besides
+                that I also like movies, music, basketball and books&#128640;.
               </p>
             </div>
           </div>

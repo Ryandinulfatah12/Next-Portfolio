@@ -1,5 +1,6 @@
 import React from 'react'
 import userData from '../constants/data'
+import Image from 'next/image'
 export default function Project() {
   //   console.log(userData.project)
   return (
@@ -7,12 +8,21 @@ export default function Project() {
       <div className="">
         <div id="work">
           <h1 className="text-center text-4xl font-extrabold text-gray-800 dark:text-white lg:ml-1">
-            Here you can see my &#128640;
+            Here you can see my work&#128640;
           </h1>
           <div className="xs:grid-cols-1 grid items-center justify-center gap-4 py-2 px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {userData.project.map((item) => (
-              <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg dark:bg-slate-800">
-                <img className="w-full" src={item.img} alt={item.nama} />
+              <div
+                key={item.id}
+                className="overflow-hidden rounded-lg shadow-md hover:shadow-lg dark:bg-slate-800"
+              >
+                {/* <img className="w-full" src={item.img} alt={item.nama} /> */}
+                <Image
+                  src={item.img}
+                  alt={item.nama}
+                  width={600}
+                  height={400}
+                />
                 <div className="px-6 py-4">
                   <div className="mb-2 text-xl font-bold">{item.nama}</div>
                   <p className="text-base text-gray-700 dark:text-white">
