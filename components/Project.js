@@ -10,7 +10,7 @@ export default function Project() {
           <h1 className="text-center text-4xl font-extrabold text-gray-800 dark:text-white lg:ml-1">
             Here you can see my work&#128640;
           </h1>
-          <div className="xs:grid-cols-1 grid items-center justify-center gap-4 py-2 px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="xs:grid-cols-1 grid items-center justify-center gap-6 py-2 px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {userData.project.map((item) => (
               <div
                 key={item.id}
@@ -22,6 +22,7 @@ export default function Project() {
                   alt={item.nama}
                   width={600}
                   height={400}
+                  className="h-60 w-full rounded-lg object-cover"
                 />
                 <div className="px-6 py-4">
                   <div className="mb-2 text-xl font-bold">{item.nama}</div>

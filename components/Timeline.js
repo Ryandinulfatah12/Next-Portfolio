@@ -25,9 +25,7 @@ export default function Timeline() {
                       {item.year}
                     </span>
                   </h3>
-                  <p className="w-full text-justify leading-tight">
-                    {item.desc}
-                  </p>
+                  <p className="w-full leading-tight">{item.desc}</p>
                 </div>
               </div>
             ))}
