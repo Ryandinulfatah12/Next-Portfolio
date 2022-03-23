@@ -1,13 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
-import Project from '../components/Project'
+import About from '../components/About'
 
-export default function work() {
+export default function about() {
   return (
     <>
       <div className="space-y-14 lg:space-y-24">
         <Head>
-          <title>Work</title>
+          <title>About</title>
           <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@ export default function work() {
         </Head>
 
         <main className="mx-auto mt-16 max-w-4xl antialiased">
-          <Project />
+          <About />
         </main>
       </div>
     </>

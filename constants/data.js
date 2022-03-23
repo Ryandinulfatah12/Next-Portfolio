@@ -2,8 +2,9 @@ const userData = {
   githubUsername: 'Ryandinulfatah12',
   name: 'Ryan',
   fullname: 'Ryan Dinul Fatah',
-  title: 'Software Developer | Fullstack Developer | Web Enthusiast',
-  desc: 'Hi there, im Software Developer who loves to learn new things, besides that, i also like basketball, music, movies and books &#128640;',
+  title: 'Software Developer | Fulltime learner | Web Enthusiast',
+  country: '🇮🇩 Indonesia',
+  desc: 'Im Ryan Dinul Fatah, you can call me Ryan or Iyan. I started liking and learning web development from the 1st grade of high school. Besides that, I also like playing basketball. However, I discontinued my basketball career and decided to study programming, business, and future goals and careers.',
   project: [
     {
       id: 1,
@@ -100,6 +101,86 @@ const userData = {
       name: 'Email',
       link: 'mailto:dinulfatahryan@gmail.com',
       icon: '/img/icon/mail.svg',
+    },
+  ],
+  techStack: [
+    {
+      id: 1,
+      name: 'HTML',
+      icon: '/img/icon/html5.svg',
+      year: '3 years',
+    },
+    {
+      id: 2,
+      name: 'CSS',
+      icon: '/img/icon/css3.svg',
+      year: '3 years',
+    },
+    {
+      id: 3,
+      name: 'Javascript',
+      icon: '/img/icon/javascript.svg',
+      year: '2 years',
+    },
+    {
+      id: 4,
+      name: 'PHP',
+      icon: '/img/icon/php.svg',
+      year: '2 years',
+    },
+    {
+      id: 5,
+      name: 'MySQL',
+      icon: '/img/icon/mysql.svg',
+      year: '2 years',
+    },
+    {
+      id: 6,
+      name: 'Laravel',
+      icon: '/img/icon/laravel.svg',
+      year: '2 year',
+    },
+    {
+      id: 7,
+      name: 'React',
+      icon: '/img/icon/react.svg',
+      year: '2 month',
+    },
+    {
+      id: 8,
+      name: 'jQuery',
+      icon: '/img/icon/jquery.svg',
+      year: '1 year',
+    },
+    {
+      id: 9,
+      name: 'SASS/SCSS',
+      icon: '/img/icon/sass.svg',
+      year: '1 year',
+    },
+    {
+      id: 10,
+      name: 'Vue.js',
+      icon: '/img/icon/vue.svg',
+      year: '2 month',
+    },
+    {
+      id: 11,
+      name: 'Wordpress',
+      icon: '/img/icon/wordpress.svg',
+      year: '3 month',
+    },
+    {
+      id: 12,
+      name: 'Figma',
+      icon: '/img/icon/figma.svg',
+      year: '1 year',
+    },
+    {
+      id: 13,
+      name: 'Canva',
+      icon: '/img/icon/canva.svg',
+      year: '1 year',
     },
   ],
 }

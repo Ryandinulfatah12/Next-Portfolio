@@ -9,7 +9,7 @@ export default function Timeline() {
         <div className="container">
           <div className="flex grid-cols-12 flex-col text-gray-50 md:grid">
             {userData.timeline.map((item) => (
-              <div className="flex md:contents" key={item.id}>
+              <div key={item.id} className="flex md:contents">
                 <div className="relative col-start-2 col-end-4 mr-10 md:mx-auto">
                   <div className="flex h-full w-6 items-center justify-center">
                     <div className="pointer-events-none h-full w-1 bg-slate-800"></div>

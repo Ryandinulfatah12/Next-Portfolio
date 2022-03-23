@@ -13,6 +13,7 @@ export default function Footer() {
             <div className="flex flex-wrap space-x-4 pt-2 font-medium lg:pt-0">
               {userData.social.map((item) => (
                 <a
+                  key={item.id}
                   href={item.link}
                   className={'transition-colors hover:text-yellow-500'}
                   target="_blank"

@@ -10,37 +10,45 @@ export default function Project() {
           <h1 className="text-center text-4xl font-extrabold text-gray-800 dark:text-white lg:ml-1">
             Here you can see my work&#128640;
           </h1>
-          <div className="xs:grid-cols-1 grid items-center justify-center gap-6 py-2 px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {userData.project.map((item) => (
-              <div
-                key={item.id}
-                className="overflow-hidden rounded-lg shadow-md hover:shadow-lg dark:bg-slate-800"
-              >
-                {/* <img className="w-full" src={item.img} alt={item.nama} /> */}
-                <Image
-                  src={item.img}
-                  alt={item.nama}
-                  width={600}
-                  height={400}
-                  className="h-60 w-full rounded-lg object-cover"
-                />
-                <div className="px-6 py-4">
-                  <div className="mb-2 text-xl font-bold">{item.nama}</div>
-                  <p className="text-base text-gray-700 dark:text-white">
+          {/* New Card */}
+          {userData.project.map((item) => (
+            <div key={item.id} className="mb-4 flex flex-col justify-center">
+              <div className="relative mx-auto flex max-w-xs flex-col space-y-3 rounded-xl border border-white bg-white p-3 shadow-lg dark:border-slate-700 dark:bg-slate-700 md:max-w-3xl md:flex-row md:space-x-5 md:space-y-0">
+                <div className="grid w-full place-items-center bg-white dark:bg-slate-700 md:w-1/3">
+                  <img
+                    src={item.img}
+                    alt={item.nama}
+                    width={500}
+                    className="rounded-xl"
+                  />
+                </div>
+                <div className="flex w-full flex-col space-y-2 bg-white p-3 dark:bg-slate-700  md:w-2/3">
+                  <div className="item-center flex justify-start">
+                    {item.stack.split(',').map((item) => (
+                      <div className="mr-1 hidden rounded-full bg-gray-200 px-3 py-1 text-xs font-medium text-gray-800 md:block">
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                  <h3 className="text-xl font-black text-gray-800 dark:text-white md:text-3xl">
+                    {item.nama}
+                  </h3>
+                  <p className="text-base text-gray-500 dark:text-white md:text-lg">
                     {item.desc}
                   </p>
-                </div>
 
-                <div className="px-6 pt-4 pb-2">
-                  {item.stack.split(',').map((item) => (
-                    <span className="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
-                      {item}
-                    </span>
-                  ))}
+                  <div className="px-6 pt-4 pb-2 md:hidden lg:hidden">
+                    {item.stack.split(',').map((item) => (
+                      <span className="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
+          {/* End */}
         </div>
       </div>
     </>
