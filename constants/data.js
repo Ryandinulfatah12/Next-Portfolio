@@ -13,6 +13,7 @@ const userData = {
       type: 'Internet of Things (IoT) Project',
       desc: 'Sistem pendeteksi dini pergerakan tanah longsor SMKN 1 padaherang yang telah saya buat untuk PAMERAN SMK KARYA INOVASI (anak PKL) di STMIK AKAKOM YOGYAKARTA, alat pendeteksi yang bisa dimonitoring melalui web dengan REALTIME.',
       stack: 'C, PHP Native, MySQL, Jquery',
+      url: '#',
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const userData = {
       type: 'Internet of Things (IoT) Project',
       desc: 'Karya Inovasi dari SMK Negeri 1 Padaherang, yang dimana sebuah rumah yang dilengkapi fitur canggih seperti membuka gerbang dengan HP, membuka pintu utama dengan KTP, semua lampu bisa otomatis/manual dari HP, Jemuran dan Kipas Otomatis, serta Monitoring Suhu Ruangan',
       stack: 'C, Javascript, PHP',
+      url: '#',
     },
     {
       id: 3,
@@ -28,7 +30,8 @@ const userData = {
       img: '/img/project/resto.png',
       type: 'Laravel Project',
       desc: 'Aplikasi Kasir Restourant Management System yang dibuat oleh Saya (Ryan Dinul Fatah) Untuk memenuhi tugas Sekolah tepatnya Project Akhir UJIKOM 2020 saya di SMKN 1 Padaherang ini.',
-      stack: 'Laravel, Jquery, MySQL, Bootstrap',
+      stack: 'Laravel, Jquery, MySQL, Bootstrap, Open Source',
+      url: 'https://github.com/Ryandinulfatah12/AplikasiKasirRestoran',
     },
     {
       id: 4,
@@ -36,7 +39,8 @@ const userData = {
       img: '/img/project/pengaduan.png',
       type: 'Laravel Project',
       desc: 'Aplikasi ini merupakan aplikasi yang dapat mengelola pendataan pengaduan dari masyarakat, selain dibuat sesimple mungkin, aplikasi ini juga lumayan dapat bekerja dengan baik untuk dibilang sebuah Aplikasi Pengaduan Masyarakat.',
-      stack: 'Laravel, Jquery, MySQL, Bootstrap',
+      stack: 'Laravel, Jquery, MySQL, Bootstrap, Open Source',
+      url: 'https://github.com/Ryandinulfatah12/AplikasiPengaduanMasyarakat',
     },
   ],
   timeline: [
@@ -181,6 +185,48 @@ const userData = {
       name: 'Canva',
       icon: '/img/icon/canva.svg',
       year: '1 year',
+    },
+  ],
+  link: [
+    {
+      id: 1,
+      text: 'View My Resume',
+      url: '#',
+    },
+    {
+      id: 2,
+      text: 'My Github',
+      url: 'https://github.com/Ryandinulfatah12',
+    },
+    {
+      id: 3,
+      text: 'My Instagram',
+      url: 'https://www.instagram.com/ryandinulfatah/',
+    },
+    {
+      id: 4,
+      text: 'Send me an email',
+      url: 'mailto:dinulfatahryan@gmail.com',
+    },
+    {
+      id: 5,
+      text: 'My Linkedin',
+      url: 'https://www.linkedin.com/in/ryandinulfatah/',
+    },
+    {
+      id: 6,
+      text: 'My Facebook',
+      url: 'https://www.facebook.com/ryandinulfatah',
+    },
+    {
+      id: 7,
+      text: 'My Medium',
+      url: 'https://medium.com/@ryandinulfatah',
+    },
+    {
+      id: 8,
+      text: 'My Blog',
+      url: 'https://ryandinulfatah.blogspot.com/',
     },
   ],
 }

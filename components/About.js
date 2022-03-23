@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import userData from '../constants/data'
+import Timeline from './Timeline'
+import ryan from '../public/ryandf.png'
+import Image from 'next/image'
 
 export default function About() {
   const [data, setData] = useState([])
@@ -21,28 +24,20 @@ export default function About() {
           Hey, glad to see 🙂
         </h1>
         <div className="flex flex-col items-center">
-          <img
-            src={data.avatar_url}
-            alt={userData.name}
-            width={200}
-            className="my-4 rounded-full "
+          <Image
+            src={ryan}
+            alt="Profile"
+            priority={true}
+            className="rounded-full"
+            width={150}
+            height={150}
+            placeholder="blur"
           />
           <div className="my-3 italic">{userData.country}</div>
-          <div className="my-5 grid grid-cols-3 items-center gap-3 p-3">
-            <div className="rounded-xl p-2 text-center shadow-md hover:shadow-lg dark:bg-slate-700">
-              <h5 className="">Follower github</h5>
-              <h1 className="text-5xl font-bold">{data.followers}</h1>
-            </div>
-            <div className="rounded-xl p-2 text-center shadow-md hover:shadow-lg dark:bg-slate-700">
-              <h5 className="">Following github</h5>
-              <h1 className="text-5xl font-bold">{data.following}</h1>
-            </div>
-            <div className="rounded-xl p-2 text-center shadow-md hover:shadow-lg dark:bg-slate-700">
-              <h5 className="">Repository github</h5>
-              <h1 className="text-5xl font-bold">{data.public_repos}</h1>
-            </div>
-          </div>
           <p>{userData.desc}</p>
+          <div className="my-5">
+            <Timeline />
+          </div>
         </div>
 
         {/* Stack section */}

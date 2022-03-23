@@ -44,6 +44,12 @@ export default function Project() {
                       </span>
                     ))}
                   </div>
+
+                  <div className="my-3">
+                    <a href={item.url} className="hover:underline">
+                      ✌🏻 Demo / URL
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

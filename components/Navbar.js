@@ -36,13 +36,13 @@ export default function Navbar() {
                   Work
                 </a>
               </Link>
-              <Link href="/experience">
+              <Link href="/link">
                 <a
                   className={
                     'colors font-medium tracking-wider text-gray-900 transition hover:text-sky-500 dark:text-white'
                   }
                 >
-                  Exp
+                  Get in touch
                 </a>
               </Link>
               <ThemeSwitch />
