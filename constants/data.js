@@ -42,6 +42,24 @@ const userData = {
       stack: 'Laravel, Jquery, MySQL, Bootstrap, Open Source',
       url: 'https://github.com/Ryandinulfatah12/AplikasiPengaduanMasyarakat',
     },
+    {
+      id: 5,
+      nama: 'Sistem informasi Sekolah',
+      img: '/img/project/sismk.png',
+      type: 'Laravel Project',
+      desc: 'Web Media Informasi Sekolah yang dibuat oleh Novi Herlambang . SI_SMK adalah Website Sistem Informasi yang dibuat menggunakan laravel 8 agar para siswa dapat melihat informasi seputar sekolah SMK,event,daftar guru,alumni, PPDB artikel, dan informasi lainnya melalui website dengan mudah.',
+      stack: 'Laravel 8, Jquery, MySQL, Bootstrap',
+      url: 'https://github.com/NoviHe/si_smk',
+    },
+    {
+      id: 6,
+      nama: 'Aplikasi Pemesanan Asisten Rumah',
+      img: '/img/project/asistenrumah.png',
+      type: 'Laravel Project',
+      desc: 'Asisten Rumah adalah Platform online terbaik di era digital yang akan membantu serta memudahkan Anda untuk mendapatkan asisten rumah tangga yang terpercaya, profesional dan berpengalaman di bidangnya. Anda tidak perlu khwatir semua prosesnya cepat dan kami berusaha memberikan pelayanan yang terbaik.',
+      stack: 'Laravel, Jquery, MySQL, Bootstrap',
+      url: 'https://www.asistenrumah.com',
+    },
   ],
   timeline: [
     {

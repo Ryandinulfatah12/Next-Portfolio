@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import userData from '../constants/data'
 import Timeline from './Timeline'
-import ryan from '../public/ryandf.png'
+import ryan from '../public/ryan.jpg'
 import Image from 'next/image'
 
 export default function About() {
