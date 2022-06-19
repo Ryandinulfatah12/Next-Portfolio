@@ -43,6 +43,16 @@ export default function Navbar() {
                   Work
                 </a>
               </Link>
+              <Link href="/achievement">
+                <a
+                  className={
+                    'colors font-medium tracking-wider text-gray-900 transition hover:text-sky-500 dark:text-white'
+                  }
+                >
+                  Achievement
+                </a>
+              </Link>
+
               <Link href="/link">
                 <a
                   className={
@@ -103,6 +113,15 @@ export default function Navbar() {
                 }
               >
                 Work
+              </a>
+            </Link>
+            <Link href="/achievement">
+              <a
+                className={
+                  'flex w-full flex-col items-start rounded py-3 hover:underline lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center'
+                }
+              >
+                Achievement
               </a>
             </Link>
             <Link href="/link">

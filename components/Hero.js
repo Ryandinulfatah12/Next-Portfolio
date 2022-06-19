@@ -15,6 +15,12 @@ export default function Hero() {
             <div className="mt-6 text-gray-800 dark:text-white">
               <p className="mb-4">{userData.title}&#128640;.</p>
             </div>
+            <a
+              href="https://drive.google.com/file/d/1pniMCyTuzWQbiE82kRahWXDTsRCj6cJu/view?usp=sharing"
+              class="h-10 rounded-md bg-gray-800 py-2  px-6 font-semibold text-white hover:bg-black"
+            >
+              Download PDF Version
+            </a>
           </div>
           <div className="mb-10 flex-shrink-0 lg:mt-12 lg:px-4">
             <Image
