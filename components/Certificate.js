@@ -7,7 +7,7 @@ export default function Certificate() {
     <>
       <div className="mt-4 p-4">
         <h1 className="mb-6 text-center text-4xl font-semibold">
-          Here's my achievement 🏆 
+          Here's my achievement 🏆
         </h1>
 
         <div class="container mx-auto">
@@ -24,7 +24,7 @@ export default function Certificate() {
                   {item.title}
                 </h4>
 
-                <span class="mr-2 inline-flex items-center justify-center rounded-full bg-slate-600 px-2 py-1 text-xs font-bold leading-none text-red-100">
+                <span class="mr-2 inline-flex items-center justify-center rounded-full bg-slate-600 px-2 py-1 text-xs font-bold leading-none text-white">
                   {item.platform}
                 </span>
                 <a href={item.url} className="pt-3 text-center hover:underline">
