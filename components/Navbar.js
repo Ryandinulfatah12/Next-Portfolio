@@ -94,7 +94,7 @@ export default function Navbar() {
         <div
           className={`${
             active ? '' : 'hidden'
-          } container mx-auto flex items-center justify-between px-4 lg:max-w-4xl`}
+          } container mx-auto flex items-center justify-between px-4 lg:hidden lg:max-w-4xl`}
         >
           <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
             <Link href="/about">

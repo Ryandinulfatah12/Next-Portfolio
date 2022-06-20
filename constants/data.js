@@ -246,7 +246,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: '#',
+      url: 'https://drive.google.com/file/d/1pnybKrJGgCxGtza1XXi01QC9jYAcVa30/view?usp=sharing',
     },
     {
       id: 2,
