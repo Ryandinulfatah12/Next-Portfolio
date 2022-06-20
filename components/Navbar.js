@@ -70,7 +70,7 @@ export default function Navbar() {
             </div>
             <button
               onClick={handleClick}
-              className=" ml-auto inline-flex justify-between rounded p-2 text-gray-900 outline-none hover:bg-sky-600 hover:text-gray-200 dark:text-white lg:hidden"
+              className=" ml-auto inline-flex justify-between rounded p-2 text-gray-900 outline-none hover:bg-sky-600 hover:text-gray-200 lg:hidden"
             >
               <svg
                 className="h-6 w-6"
