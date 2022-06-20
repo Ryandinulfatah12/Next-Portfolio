@@ -287,7 +287,7 @@ const userData = {
   sertifikasi: [
     {
       id: 1,
-      title: 'Rakesh Kumar - Frontend-Development',
+      title: 'Rakesh Kumar - Frontend-Development Admin Design',
       platform: 'Upwork Client Feedback',
       img: '/img/certificate/new-testi-2.png',
       url: 'https://www.upwork.com/freelancers/~015effbba758bbdfe0',
