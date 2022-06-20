@@ -16,7 +16,7 @@ export default function Hero() {
               <p className="mb-4">{userData.title}&#128640;.</p>
             </div>
             <a
-              href="https://drive.google.com/file/d/1pniMCyTuzWQbiE82kRahWXDTsRCj6cJu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pnybKrJGgCxGtza1XXi01QC9jYAcVa30/view?usp=sharing"
               class="h-10 rounded-md bg-gray-800 py-2  px-6 font-semibold text-white hover:bg-black"
             >
               Download PDF Version
@@ -32,6 +32,9 @@ export default function Hero() {
               height={250}
               placeholder="blur"
             />
+            <div className="mb-4 text-center font-bold">
+              {userData.status}&#128640;.
+            </div>
           </div>
         </div>
       </div>

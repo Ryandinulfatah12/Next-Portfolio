@@ -7,7 +7,7 @@ export default function Certificate() {
     <>
       <div className="mt-4 p-4">
         <h1 className="mb-6 text-center text-4xl font-semibold">
-          Here's my achievement 🙂
+          Here's my achievement 🏆 
         </h1>
 
         <div class="container mx-auto">
@@ -20,7 +20,7 @@ export default function Certificate() {
                 alt={item.title}
               />
               <div class="px-6 py-4">
-                <h4 class="mb-3 text-xl font-semibold tracking-tight text-gray-800">
+                <h4 class="mb-3 text-xl font-semibold tracking-tight text-gray-800 dark:text-white">
                   {item.title}
                 </h4>
 
