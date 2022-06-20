@@ -4,6 +4,7 @@ export default function CardProject(props) {
   return (
     <>
       <a
+        key={props.project.id}
         className="my-3 mx-3 block rounded-xl hover:shadow-xl dark:bg-gray-200"
         href="#"
       >

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import userData from '../constants/data'
 
-import CardProject from './micro/cardProject'
+import CardProject from './micro/CardProject'
 export default function Project() {
   //   console.log(userData.project)
   const [item, setItem] = useState(userData.project)
@@ -15,7 +15,7 @@ export default function Project() {
           {/* New Card */}
           <div className="xs:grid-cols-1 grid items-center justify-center gap-4 py-2 px-2 md:grid-cols-2">
             {item.map((project) => (
-              <CardProject key={project.id} project={project} />
+              <CardProject project={project} />
             ))}
           </div>
           {/* End */}
