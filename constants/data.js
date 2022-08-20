@@ -3,7 +3,7 @@ const userData = {
   name: 'Ryan',
   fullname: 'Ryan Dinul Fatah',
   title: 'Software Developer | Fulltime learner | Web Enthusiast',
-  status: '#OpenToWork',
+  status: '#BackendEngineer@SQMProperty',
   country: '🇮🇩 Indonesia',
   desc: 'Im Ryan Dinul Fatah, you can call me Ryan or Iyan. Born on 12 february 2022. I started liking and learning web development from the 1st grade of high school. Besides that, I also like playing basketball. However, I discontinued my basketball career and decided to study programming, business, and future goals and careers.',
   project: [
@@ -122,6 +122,12 @@ const userData = {
       title: '🙂 Software Developer and IT Staff',
       year: '2019',
       desc: 'managing a service company website as well as being the company IT staff at PT. Nurcahya Aulia',
+    },
+    {
+      id: 5,
+      title: '🔥 Backend Developer at SQM Property',
+      year: 'now',
+      desc: 'Build, Develop and integrate API for the front side and Optimize SQL queries to ensure the data sent is valid',
     },
   ],
   social: [
