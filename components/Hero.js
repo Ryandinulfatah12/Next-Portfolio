@@ -13,11 +13,11 @@ export default function Hero() {
               Hi there, I'm {userData.name} &#128516;
             </h1>
             <div className="mt-6 text-gray-800 dark:text-white">
-              <p className="mb-4">{userData.title}&#128640;.</p>
+              <p className="mb-4">{userData.title}&#128640;</p>
             </div>
             <a
-              href="https://drive.google.com/file/d/1pnybKrJGgCxGtza1XXi01QC9jYAcVa30/view?usp=sharing"
-              class="h-10 rounded-md bg-gray-800 py-2  px-6 font-semibold text-white hover:bg-black"
+              href="https://drive.google.com/file/d/13luppqAyhMzzwm7m0EjdSLYd05TDYfuN/view?usp=share_link"
+              className="h-10 rounded-md bg-gray-800 py-2  px-6 font-semibold text-white hover:bg-black"
             >
               Download PDF Version
             </a>

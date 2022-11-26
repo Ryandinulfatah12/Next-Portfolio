@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import userData from '../constants/data'
 import Timeline from './Timeline'
-import ryan from '../public/ryan.jpg'
+import ryan from '../public/ryan.png'
 import Image from 'next/image'
 
 export default function About() {
@@ -42,11 +42,11 @@ export default function About() {
 
         {/* Stack section */}
         <h2 className="mt-9 mb-5 text-center text-4xl font-semibold">
-          Tech stack 😆
+          My Tools 😆
         </h2>
         <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2">
           {userData.techStack.map((item) => (
-            <div className="justify-center overflow-hidden rounded-xl p-4 text-center shadow-md hover:shadow-lg dark:bg-slate-800">
+            <div className="justify-center overflow-hidden rounded-xl p-4 text-center shadow-md duration-500 ease-in-out hover:scale-105 hover:cursor-default hover:shadow-xl dark:bg-slate-800">
               <img
                 src={item.icon}
                 alt={item.name}

@@ -2,10 +2,10 @@ const userData = {
   githubUsername: 'Ryandinulfatah12',
   name: 'Ryan',
   fullname: 'Ryan Dinul Fatah',
-  title: 'Software Developer | Fulltime learner | Web Enthusiast',
+  title: 'Software Developer | Fulltime learner | Tech Enthusiast',
   status: '#BackendEngineer@SQMProperty',
   country: '🇮🇩 Indonesia',
-  desc: 'Im Ryan Dinul Fatah, you can call me Ryan or Iyan. Born on 12 february 2022. I started liking and learning web development from the 1st grade of high school. Besides that, I also like playing basketball. However, I discontinued my basketball career and decided to study programming, business, and future goals and careers.',
+  desc: 'I am currently a Backend Developer in the systems development division at SQM Property. Brings expertise in system design, development, system testing and maintenance. I enjoy learning programming technology to improve skills, by writing code and efficiently. I can manage myself effectively during independent projects, as well as collaborate in teams. I continually strive to be the best version of myself and to uplift the people I work with. I am a fast learner and can take on any challenge with creativity and hard work i believe i will create a valuable asset as a software developer. Dont hesitate to contact me with any questions!',
   project: [
     {
       id: 1,
@@ -365,7 +365,7 @@ const userData = {
       id: 11,
       title: 'The Fundamentals of Digital Marketing',
       platform: 'Google Digital Garage',
-      img: '/img/certificate/google-digital-marketing.png',
+      img: '/img/certificate/new-google-digital-marketing.png',
       url: '#',
     },
   ],
