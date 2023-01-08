@@ -281,6 +281,20 @@ const userData = {
       icon: '/img/icon/digitalocean.svg',
       year: '2 month',
     },
+    {
+      id: 16,
+      name: 'Java',
+      type: 'programming',
+      icon: '/img/icon/java.svg',
+      year: '2 month',
+    },
+    {
+      id: 17,
+      name: 'Spring Boot',
+      type: 'framework',
+      icon: '/img/icon/spring.svg',
+      year: '2 month',
+    },
   ],
   link: [
     {
