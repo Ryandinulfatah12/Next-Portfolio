@@ -195,14 +195,14 @@ const userData = {
       name: 'PHP',
       type: 'programming',
       icon: '/img/icon/php.svg',
-      year: '2 years',
+      year: '3 years',
     },
     {
       id: 5,
       name: 'MySQL',
       type: 'database',
       icon: '/img/icon/mysql.svg',
-      year: '2 years',
+      year: '3 years',
     },
     {
       id: 6,
@@ -293,14 +293,14 @@ const userData = {
       name: 'Spring Boot',
       type: 'framework',
       icon: '/img/icon/spring.svg',
-      year: '2 month',
+      year: '6 month',
     },
   ],
   link: [
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/1pnybKrJGgCxGtza1XXi01QC9jYAcVa30/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1pDeZD3MTPp113KIH6j5fwT39aWjt5WbQ/view?usp=sharing',
     },
     {
       id: 2,
