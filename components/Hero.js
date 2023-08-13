@@ -10,10 +10,10 @@ export default function Hero() {
         <div className="flex flex-col-reverse items-center text-center lg:mx-4 lg:flex-row lg:space-x-5 lg:text-left">
           <div className="lg:mt-12 lg:px-4">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white lg:text-5xl">
-              Hi there, I'm {userData.name} &#128516;
+              Hi, I'm {userData.name} &#128516;
             </h1>
             <div className="mt-6 text-gray-800 dark:text-white">
-              <p className="mb-4">{userData.title}&#128640;</p>
+              <p className="mb-4">{userData.title}</p>
             </div>
             <a
               href="https://drive.google.com/file/d/1pDeZD3MTPp113KIH6j5fwT39aWjt5WbQ/view?usp=sharing"
@@ -32,9 +32,9 @@ export default function Hero() {
               height={250}
               placeholder="blur"
             />
-            <div className="mb-4 text-center font-bold">
-              {userData.status}&#128640;.
-            </div>
+            {/* <div className="mb-4 text-center font-bold">
+              {userData.status}
+            </div> */}
           </div>
         </div>
       </div>

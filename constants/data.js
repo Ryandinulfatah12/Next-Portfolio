@@ -2,9 +2,9 @@ const userData = {
   githubUsername: 'Ryandinulfatah12',
   name: 'Ryan',
   fullname: 'Ryan Dinul Fatah',
-  title: 'Software Developer | Fulltime learner | Tech Enthusiast',
-  status: '#BackendEngineer@SQMProperty',
-  country: '🇮🇩 Indonesia',
+  title: 'Software Developer | Backend Developer',
+  status: '#BackendDeveloper@SQMProperty',
+  country: 'Indonesia',
   desc: 'I am currently a Backend Developer in the systems development division at SQM Property. Brings expertise in system design, development, system testing and maintenance. I enjoy learning programming technology to improve skills, by writing code and efficiently. I can manage myself effectively during independent projects, as well as collaborate in teams. I continually strive to be the best version of myself and to uplift the people I work with. I am a fast learner and can take on any challenge with creativity and hard work i believe i will create a valuable asset as a software developer. Dont hesitate to contact me with any questions!',
   project: [
     {
