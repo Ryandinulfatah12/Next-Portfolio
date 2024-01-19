@@ -1,13 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
-import Timeline from '../components/micro/Timeline'
+import Articles from '../components/Articles'
 
-export default function experience() {
+export default function articles() {
   return (
     <>
       <div className="space-y-14 lg:space-y-24">
         <Head>
-          <title>Experience</title>
+          <title>Articles</title>
           <link rel="icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@ export default function experience() {
         </Head>
 
         <main className="mx-auto mt-16 max-w-4xl antialiased">
-          <Timeline />
+          <Articles />
         </main>
       </div>
     </>

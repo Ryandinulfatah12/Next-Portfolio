@@ -7,7 +7,7 @@ export default function Certificate() {
     <>
       <div className="mt-4 p-4">
         <h1 className="mb-6 text-center text-4xl font-semibold">
-          Here's my achievement 🏆
+        Little accomplishments keep me going 🏆
         </h1>
 
         <div className="container mx-auto">

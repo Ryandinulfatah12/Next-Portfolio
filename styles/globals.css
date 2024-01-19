@@ -5,3 +5,11 @@
 body {
   font-family: 'Montserrat', Courier, monospace;
 }
+
+/* Apply this CSS method to truncate article descriptions */
+.article__description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

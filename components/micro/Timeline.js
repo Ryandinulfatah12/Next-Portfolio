@@ -1,11 +1,11 @@
 import React from 'react'
-import userData from '../constants/data'
+import userData from '../../constants/data'
 
 export default function Timeline() {
   return (
     <>
       <div className="mt-4 p-4">
-        <h1 className="mb-6 text-center text-4xl font-semibold">My Timeline</h1>
+        <h1 className="mb-6 text-center text-4xl font-semibold">My Work Experiences</h1>
         <div className="container">
           <div className="flex grid-cols-12 flex-col text-gray-50 md:grid ">
             {userData.timeline.map((item) => (
