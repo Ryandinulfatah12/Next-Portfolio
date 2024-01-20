@@ -9,7 +9,10 @@ export default function achievement() {
         <Head>
           <title>My Achievement</title>
           <link rel="icon" href="/favicon.ico" />
-
+          <meta
+            name="description"
+            content="My little appreciation continues to make me advance in my career in the programming field."
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

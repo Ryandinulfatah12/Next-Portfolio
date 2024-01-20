@@ -9,7 +9,10 @@ export default function articles() {
         <Head>
           <title>Articles</title>
           <link rel="icon" href="/favicon.ico" />
-
+          <meta
+            name="description"
+            content="Some of the articles I write are based on things that are on my mind."
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

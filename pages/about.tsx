@@ -9,7 +9,10 @@ export default function about() {
         <Head>
           <title>About</title>
           <link rel="icon" href="/favicon.ico" />
-
+          <meta
+            name="description"
+            content="Hi, I'm Ryan, nice to meet you. I am someone who likes learning and working in the IT field."
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
