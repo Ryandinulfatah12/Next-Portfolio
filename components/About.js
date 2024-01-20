@@ -21,7 +21,7 @@ export default function About() {
     <>
       <div className="mt-4 p-4">
         <h1 className="mb-6 text-center text-4xl font-semibold">
-          Hey, glad to see, You can call me Ryan &#128516;
+          Hey, glad to see, You can call me Ryan
         </h1>
         <div className="flex flex-col items-center">
           <Image
@@ -42,7 +42,7 @@ export default function About() {
 
         {/* Stack section */}
         <h2 className="mt-9 mb-5 text-center text-4xl font-semibold">
-        Technologies I frequently use 😆
+        Technologies I frequently use
         </h2>
         <div className="xs:grid-cols-3 grid grid-cols-3 items-center justify-center gap-4 py-2 px-2 md:grid-cols-3 lg:grid-cols-2">
           {userData.techStack.map((item) => (

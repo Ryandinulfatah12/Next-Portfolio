@@ -25,7 +25,7 @@ export default function Timeline() {
                       {item.year}
                     </span>
                   </h3>
-                  <p className="w-full leading-tight">{item.desc}</p>
+                  <p className="w-full leading-tight" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
                 </div>
               </div>
             ))}

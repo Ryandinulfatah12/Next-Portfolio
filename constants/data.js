@@ -109,27 +109,27 @@ const userData = {
   timeline: [
     {
       id: 2,
-      title: '😂 Internship at STMIK Akakom Yogyakarta',
+      title: 'Internship at STMIK Akakom Yogyakarta',
       year: '2019 - 2020',
-      desc: 'running a school internship program at one of the campuses in Yogyakarta, and studying knowledge in the IT, Programming, and other experiences for 5 months.',
+      desc: '<ul> <li><span>⚪ Creating a Website-based Voting System</span></li> <li><span>⚪ Learn mobile programming with Java language and build a simple application.</span><span>&nbsp;</span></li> <li><span>⚪ Building architecture for IoT (Early Detection of Landslide Movement) project for exhibition</span></li></ul>',
     },
     {
       id: 3,
-      title: '😃 Freelance Software Developer',
+      title: 'Freelance Software Developer',
       year: '2019 - 2020',
       desc: 'started stepping into software developer with several clients from India, Indonesia and Sweden on Upwork and Personal contract',
     },
     {
       id: 4,
-      title: '🙂 Software Developer and IT Staff',
+      title: 'Software Developer and IT Staff',
       year: '2020 - 2022',
-      desc: 'managing a service company website as well as being the company IT staff at PT. Nurcahya Aulia',
+      desc: '<ul> <li>⚪ Handle and resolve technical issues related to hardware (computers, printers, etc.) and software (operating systems, applications, etc.).</li> <li>⚪ Build, manage and digitally market a website for advertising (AsistenRumah.com) with more than 200 monthly active users in Jakarta and its surroundings.</li> <li>⚪ Responsible for regular data backup and ensuring data security and integrity.</li></ul>',
     },
     {
       id: 5,
-      title: '🔥 Backend Developer at SQM Property',
+      title: 'Backend Developer at SQM Property',
       year: '2022 - now',
-      desc: 'Build, Develop and integrate API for the front side and Optimize SQL queries to ensure the data sent is valid',
+      desc: '<ul> <li><span>⚪ Develop API&apos;s using Spring Boot with MySQL databases.</span></li> <li><span>⚪ Collaborate with frontend teams in defining API interfaces and developing features.</span></li> <li><span>⚪ Conduct testing, maintenance, and research to improve system reliability and efficiency.</span></li></ul>',
     },
   ],
   social: [
@@ -254,14 +254,14 @@ const userData = {
   sertifikasi: [
     {
       id: 1,
-      title: 'Rakesh Kumar - Frontend-Development Admin Design',
+      title: 'Job : Frontend-Development Admin Design',
       platform: 'Upwork Client Feedback',
       img: '/img/certificate/new-testi-2.png',
       url: 'https://www.upwork.com/freelancers/~015effbba758bbdfe0',
     },
     {
       id: 2,
-      title: 'Rakesh Kumar - Need Laravel & MySQL for Develop App',
+      title: 'Job : Need Laravel & MySQL for Develop App',
       platform: 'Upwork Client Feedback',
       img: '/img/certificate/new-testi-1.png',
       url: 'https://www.upwork.com/freelancers/~015effbba758bbdfe0',

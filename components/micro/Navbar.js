@@ -26,7 +26,7 @@ export default function Navbar() {
       <Link href={link.href} key={index}>
         <a
           onClick={() => linkClick(index)}
-          className={`font-medium text-gray-800 dark:text-white ${
+          className={`font-medium py-3 text-gray-800 dark:text-white ${
             router.pathname === link.href && activeLinks[index] ? 'underline' : ''
           }`}
         >
@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="sticky top-0 z-50 bg-white py-2 dark:bg-black md:mb-6 md:py-6">
         <div className="container mx-auto flex items-center justify-between px-4 lg:max-w-4xl">
           <Link href="/" onClick={linkClick}>
-            <a className={`colors font-medium uppercase tracking-wider text-gray-900 hover:text-sky-500 dark:text-white`}>
+            <a className={`colors font-medium uppercase tracking-wider text-gray-900 hover:text-slate-800 dark:text-white`}>
               {navLinks[0].label}
             </a>
           </Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
             <ThemeSwitch className="mx-2" />
             <button
               onClick={handleClick}
-              className="ml-auto inline-flex justify-between rounded p-2 text-gray-900 outline-none hover:bg-sky-600 hover:text-gray-200 dark:text-white lg:hidden"
+              className="ml-auto inline-flex justify-between rounded p-2 ml-5 text-gray-900 outline-none hover:bg-slate-800 hover:text-gray-200 dark:text-white lg:hidden"
             >
               <svg
                 className="h-6 w-6"
@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
 
         <div className={`${active ? '' : 'hidden'} responsive-menu container mx-auto flex items-center justify-between px-4 lg:hidden lg:max-w-4xl`}>
-          <div className="flex w-full flex-col items-start lg:space-x-4 lg:flex-row lg:items-center">
+          <div className="flex my-5 w-full flex-col items-start lg:space-x-4 lg:flex-row lg:items-center">
             {renderNavLinks()}
           </div>
         </div>

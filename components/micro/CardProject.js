@@ -29,7 +29,10 @@ export default function CardProject(props) {
           alt={props.project.name}
         />
 
-        <div className="p-4">
+        <div className="p-4 transition duration-300"
+              onMouseEnter={handleHover}
+              onMouseLeave={handleMouseLeave}
+        >
           <p className="text-uppercase text-xs text-slate-800 dark:text-white">
             {props.project.type}
           </p>
@@ -43,15 +46,13 @@ export default function CardProject(props) {
           </h5>
           <p
             className="mt-2 text-gray-500 dark:text-white overflow-hidden transition duration-300"
-            onMouseEnter={handleHover}
-            onMouseLeave={handleMouseLeave}
           >
             {isHovered ? props.project.desc : truncatedDesc}
           </p>
           <div className="my-4"></div>
           <a
             href={props.project.url}
-            className="mt-4 h-5 rounded-md bg-slate-500 py-2  px-3 font-semibold text-white hover:bg-slate-700 transition duration-300"
+            className="mt-4 h-4 rounded-md bg-slate-500 py-2 dark:bg-slate-600 px-3 font-semibold text-white hover:bg-slate-900 transition duration-300"
           >
             👉 See Live / Documentation
           </a>

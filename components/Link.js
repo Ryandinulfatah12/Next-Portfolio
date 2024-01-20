@@ -5,7 +5,7 @@ export default function Link() {
   return (
     <div className="items-center">
       <h1 className="mb-6 text-center text-4xl font-semibold">
-        Anything about me 🤙🏻
+        Anything about me
       </h1>
       {userData.link.map((item) => (
         <div className="mx-5">
