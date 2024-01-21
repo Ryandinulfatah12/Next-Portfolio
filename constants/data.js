@@ -5,7 +5,7 @@ const userData = {
   title: 'Passionate Backend Developer with 2 Years Experience.',
   status: '#BackendDeveloper@SQMProperty',
   country: 'Indonesia',
-  desc: 'I am currently a Backend Developer in the systems development division at SQM Property!. I love serving software that benefits people, it s my fuel. I enjoy learning about technology and business, of course in between working I improve my skills as a Backend Developer such as taking courses and one day I want to have my own team by helping with Digitalization in Indonesia and others.',
+  desc: '<p><span>I am Ryan Dinul Fatah, a bachelor of computer science student and currently a Backend Developer in the systems development division at SQM Property!.</span></p><p><span>I love serving software that benefits people, it s my fuel. I enjoy learning about technology and business, of course in between working I improve my skills as a Backend Developer such as taking courses and one day I want to have my own team by helping with Digitalization in Indonesia and others.</span></p>',
   navLink: [
     { href: '/', label: 'Ryan' },
     { href: '/about', label: 'About' },
@@ -108,16 +108,10 @@ const userData = {
   ],
   timeline: [
     {
-      id: 2,
-      title: 'Internship at STMIK Akakom Yogyakarta',
-      year: '2019 - 2020',
-      desc: '<ul> <li><span>⚪ Creating a Website-based Voting System</span></li> <li><span>⚪ Learn mobile programming with Java language and build a simple application.</span><span>&nbsp;</span></li> <li><span>⚪ Building architecture for IoT (Early Detection of Landslide Movement) project for exhibition</span></li></ul>',
-    },
-    {
-      id: 3,
-      title: 'Freelance Software Developer',
-      year: '2019 - 2020',
-      desc: 'started stepping into software developer with several clients from India, Indonesia and Sweden on Upwork and Personal contract',
+      id: 5,
+      title: 'Backend Developer at SQM Property',
+      year: '2022 - now',
+      desc: '<ul> <li><span>⚪ Develop API&apos;s using Spring Boot with MySQL databases.</span></li> <li><span>⚪ Collaborate with frontend teams in defining API interfaces and developing features.</span></li> <li><span>⚪ Conduct testing, maintenance, and research to improve system reliability and efficiency.</span></li></ul>',
     },
     {
       id: 4,
@@ -126,11 +120,17 @@ const userData = {
       desc: '<ul> <li>⚪ Handle and resolve technical issues related to hardware (computers, printers, etc.) and software (operating systems, applications, etc.).</li> <li>⚪ Build, manage and digitally market a website for advertising (AsistenRumah.com) with more than 200 monthly active users in Jakarta and its surroundings.</li> <li>⚪ Responsible for regular data backup and ensuring data security and integrity.</li></ul>',
     },
     {
-      id: 5,
-      title: 'Backend Developer at SQM Property',
-      year: '2022 - now',
-      desc: '<ul> <li><span>⚪ Develop API&apos;s using Spring Boot with MySQL databases.</span></li> <li><span>⚪ Collaborate with frontend teams in defining API interfaces and developing features.</span></li> <li><span>⚪ Conduct testing, maintenance, and research to improve system reliability and efficiency.</span></li></ul>',
+      id: 3,
+      title: 'Freelance Software Developer',
+      year: '2019 - 2020',
+      desc: 'started stepping into software developer with several clients from India, Indonesia and Sweden on Upwork and Personal contract',
     },
+    {
+      id: 2,
+      title: 'Internship at STMIK Akakom Yogyakarta',
+      year: '2019 - 2020',
+      desc: '<ul> <li><span>⚪ Creating a Website-based Voting System</span></li> <li><span>⚪ Learn mobile programming with Java language and build a simple application.</span><span>&nbsp;</span></li> <li><span>⚪ Building architecture for IoT (Early Detection of Landslide Movement) project for exhibition</span></li></ul>',
+    }
   ],
   social: [
     {
@@ -218,7 +218,7 @@ const userData = {
     {
       id: 1,
       text: 'View My Resume',
-      url: 'https://drive.google.com/file/d/1pDeZD3MTPp113KIH6j5fwT39aWjt5WbQ/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1PRi_nqHr526zvo3uaDZ3j5c-QjxVidOV/view?usp=sharing',
     },
     {
       id: 2,

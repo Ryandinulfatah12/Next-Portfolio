@@ -34,7 +34,7 @@ export default function About() {
             placeholder="blur"
           />
           <div className="my-3 italic">{userData.country}</div>
-          <p>{userData.desc}</p>
+          <p dangerouslySetInnerHTML={{ __html: userData.desc }}></p>
           <div className="my-5">
             <Timeline />
           </div>

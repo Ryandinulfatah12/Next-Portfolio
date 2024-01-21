@@ -19,6 +19,7 @@ export default function Navbar() {
     const newActiveLinks = [...activeLinks];
     newActiveLinks[index] = !newActiveLinks[index];
     setActiveLinks(newActiveLinks);
+    handleClick();
   };
 
   const renderNavLinks = () =>

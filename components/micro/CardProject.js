@@ -19,7 +19,6 @@ export default function CardProject(props) {
       <a
         key={props.project.id}
         className="my-3 mx-3 block rounded-xl duration-500 ease-in-out hover:scale-105 hover:cursor-default hover:shadow-xl dark:text-white dark:bg-slate-800"
-        href="#"
         onMouseEnter={handleHover}
         onMouseLeave={handleMouseLeave}
       >
