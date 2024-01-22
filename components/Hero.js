@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Link from 'next/link';
 import ryan from '../public/ryan-vector-square.png'
 import Image from 'next/image'
 import userData from '../constants/data'
 
 export default function Hero() {
+  const navLinks = userData.navLink;
+  const [activeLinks, setActiveLinks] = useState(Array(navLinks.length).fill(false));
+
+  const linkClick = (index) => {
+    const newActiveLinks = [...activeLinks];
+    newActiveLinks[index] = !newActiveLinks[index];
+    setActiveLinks(newActiveLinks);
+    handleClick();
+  };
   return (
     <>
       <div className="container mx-auto px-4">
@@ -23,12 +33,14 @@ export default function Hero() {
               <div className="my-6 text-gray-800 dark:text-white">
                 <p className="mb-4">{userData.title}</p>
               </div>
-              <a
-                href="/about"
-                className="h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
-              >
-                Get more about me
-              </a>
+              <Link href="/about" onClick={linkClick}>
+                <a
+                  className="h-10 rounded-md bg-gray-800 py-2 px-6 font-semibold text-white hover:bg-black transition duration-300"
+                >
+                  Get more about me
+                </a>
+              </Link>
+              
            </div>
 
            <div className="text-center my-24">
