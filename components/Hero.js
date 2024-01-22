@@ -50,12 +50,13 @@ export default function Hero() {
               <div className="my-6 text-gray-800 dark:text-white">
                 <p className="mb-4">I'm willing to hear about new opportunities from you, don't hesitate to send me a message</p>
               </div>
-              <a
-                href="/link"
-                className="h-10 rounded-md border border-gray-800 bg-white py-2 px-6 font-semibold text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300"
-              >
-                Get in Touch
-              </a>
+              <Link href="/link" onClick={linkClick}>
+                <a
+                  className="h-10 rounded-md border border-gray-800 bg-white py-2 px-6 font-semibold text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300"
+                >
+                  Get in Touch
+                </a>
+              </Link>
            </div>
       </div>
     </>
