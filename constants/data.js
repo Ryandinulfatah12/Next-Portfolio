@@ -48,7 +48,7 @@ const userData = {
       img: '/img/project/new-asistenrumah.png',
       type: 'Closed Source Project',
       desc: 'Asisten Rumah adalah Platform online terbaik di era digital yang akan membantu serta memudahkan Anda untuk mendapatkan asisten rumah tangga yang terpercaya, profesional dan berpengalaman di bidangnya. Anda tidak perlu khwatir semua prosesnya cepat dan kami berusaha memberikan pelayanan yang terbaik.',
-      stack: 'Laravel, Jquery, MySQL',
+      stack: 'Laravel, MySQL',
       url: 'https://www.asistenrumah.com',
     },
     {
@@ -57,7 +57,7 @@ const userData = {
       img: '/img/project/new-longsor.png',
       type: 'Internet of Things (IoT) Project',
       desc: 'Sistem pendeteksi dini pergerakan tanah longsor SMKN 1 padaherang yang telah saya buat untuk PAMERAN SMK KARYA INOVASI (anak PKL) di STMIK AKAKOM YOGYAKARTA, alat pendeteksi yang bisa dimonitoring melalui web dengan REALTIME.',
-      stack: 'C, PHP Native, MySQL, Jquery',
+      stack: 'C, PHP Native, MySQL',
       url: '#',
     },
     {
@@ -66,7 +66,7 @@ const userData = {
       img: '/img/project/new-smarthome.png',
       type: 'Internet of Things (IoT) Project',
       desc: 'Karya Inovasi dari SMK Negeri 1 Padaherang, yang dimana sebuah rumah yang dilengkapi fitur canggih seperti membuka gerbang dengan HP, membuka pintu utama dengan KTP, semua lampu bisa otomatis/manual dari HP, Jemuran dan Kipas Otomatis, serta Monitoring Suhu Ruangan',
-      stack: 'C, Javascript, PHP',
+      stack: 'C, Javascript, PHP Native',
       url: '#',
     },
     {
@@ -75,7 +75,7 @@ const userData = {
       img: '/img/project/new-resto.png',
       type: 'Open Source Project',
       desc: 'Aplikasi Kasir Restourant Management System yang dibuat oleh Saya (Ryan Dinul Fatah) Untuk memenuhi tugas Sekolah tepatnya Project Akhir UJIKOM 2020 saya di SMKN 1 Padaherang ini.',
-      stack: 'Laravel, Jquery, MySQL',
+      stack: 'Laravel, MySQL',
       url: 'https://github.com/Ryandinulfatah12/AplikasiKasirRestoran',
     },
     {
@@ -84,7 +84,7 @@ const userData = {
       img: '/img/project/new-pengaduan.png',
       type: 'Open Source Project',
       desc: 'Aplikasi ini merupakan aplikasi yang dapat mengelola pendataan pengaduan dari masyarakat, selain dibuat sesimple mungkin, aplikasi ini juga lumayan dapat bekerja dengan baik untuk dibilang sebuah Aplikasi Pengaduan Masyarakat.',
-      stack: 'Laravel, Jquery, MySQL',
+      stack: 'Laravel, MySQL',
       url: 'https://github.com/Ryandinulfatah12/AplikasiPengaduanMasyarakat',
     },
     {
@@ -93,7 +93,7 @@ const userData = {
       img: '/img/project/new-sismk.png',
       type: 'Open Source Project',
       desc: 'Web Media Informasi Sekolah yang dibuat oleh Novi Herlambang . SI_SMK adalah Website Sistem Informasi yang dibuat menggunakan laravel 8 agar para siswa dapat melihat informasi seputar sekolah SMK,event,daftar guru,alumni, PPDB artikel, dan informasi lainnya melalui website dengan mudah.',
-      stack: 'Laravel 8, Jquery, MySQL',
+      stack: 'Laravel, MySQL',
       url: 'https://github.com/NoviHe/si_smk',
     },
     {
@@ -102,7 +102,7 @@ const userData = {
       img: '/img/project/new-bts-cargo.png',
       type: 'Closed Source Project',
       desc: 'BTS Cargo adalah perusahaan yang bergerak dalam bidang jasa pengiriman barang baik padat, cair, alat berat, Kendaraan, dan Hewan. BTS Cargo memiliki beberapa jalur pengiriman diantaranya ada pengiriman lewat darat, laut dan udara.',
-      stack: 'PHP Native, Jquery, MySQL',
+      stack: 'PHP Native, MySQL',
       url: 'https://bts-cargo.com/',
     },
     {
@@ -111,7 +111,7 @@ const userData = {
       img: '/img/project/new-tbl.png',
       type: 'Closed Source Project',
       desc: 'TBL Cargo adalah perusahaan yang bergerak dalam bidang jasa pengiriman barang baik padat, cair, alat berat, Kendaraan, dan Hewan. BTS Cargo memiliki beberapa jalur pengiriman diantaranya ada pengiriman lewat darat, laut dan udara.',
-      stack: 'PHP Native, Jquery, MySQL',
+      stack: 'PHP Native, MySQL',
       url: '#',
     },
     {
@@ -120,7 +120,7 @@ const userData = {
       img: '/img/project/new-dlog.png',
       type: 'Closed Source Project',
       desc: 'D-Log adalah Perusahaan yang bergerak di bidang Pengiriman Barang Domestik / Internasional via Darat, Laut, dan Udara.',
-      stack: 'PHP Native, Jquery, MySQL',
+      stack: 'PHP Native, MySQL',
       url: 'https://d-logistic.id/',
     },
   ],

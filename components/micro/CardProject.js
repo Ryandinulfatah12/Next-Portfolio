@@ -40,6 +40,9 @@ export default function CardProject(props) {
               {item}
             </span>
           ))}
+          {/* <p className="text-slate-600 py-1 text-xs dark:text-white">
+              Release date: July, 2020
+          </p> */}
           <h5 className="text-xl font-bold text-slate-900 dark:text-white">
             {props.project.name}
           </h5>
