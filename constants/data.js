@@ -2,10 +2,10 @@ const userData = {
   githubUsername: 'Ryandinulfatah12',
   name: 'Ryan',
   fullname: 'Ryan Dinul Fatah',
-  title: 'Passionate Backend Developer with 2 Years Experience.',
-  status: '#BackendDeveloper@SQMProperty',
+  title: 'Passionate Fullstack Developer with 2+ Years Experience.',
+  status: '#FullstackDeveloper@PTSAU',
   country: 'Indonesia',
-  desc: '<p><span>I am Ryan Dinul Fatah, a bachelor of computer science student and currently a Backend Developer in the systems development division at SQM Property!.</span></p><p><span>I love serving software that benefits people, it s my fuel. I enjoy learning about technology and business, of course in between working I improve my skills as a Backend Developer such as taking courses and one day I want to have my own team by helping with Digitalization in Indonesia and others.</span></p>',
+  desc: '<p>As a Full-Stack Developer with over two years of experience, I specialize in crafting scalable and efficient web applications. My technical expertise spans a wide range of technologies, including <strong>Express, Hapi, NestJS, Spring Boot, Laravel, and CodeIgniter</strong> for backend development, and <strong>React, Next.js, and Vue.js</strong> for frontend applications. This diverse skill set enables me to create comprehensive solutions, combining robust API development with intuitive user interfaces. Im proficient in various architectural approaches (SSR, SSG, SPA) and can adapt to project requirements. I also excel at designing application structures, whether using microservices or a monolithic architecture.</p>',
   navLink: [
     { href: '/', label: 'Ryan' },
     { href: '/about', label: 'About' },
